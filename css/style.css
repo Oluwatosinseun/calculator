@@ -1,32 +1,38 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    background-color: blueviolet;
+body {
+    background: wheat;
 }
 
-.box-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: white;
-    width: 40%;
-    font-size: 2rem;
-    padding: 10px;
-    margin: 3rem;
-}
-
-.box-item{
-    background-color: rgba(228, 122, 255, 0.5);
-    border: 2px solid black;
-    padding: 10px;
-    font-size: 10px;
+table{
+    margin: auto;
+    width: 250px;
+    height: 300px;
     text-align: center;
+    border-radius: 5px;
 }
 
-.equal{
-    grid-row: 2/6;
-    grid-column-end: 5;
-    background-color: rgb(216, 148, 124);
-    padding: 10px;
+#calculator{
+    position: absolute;
+    max-width: 50%;
+    left: 40%;
+    top: 10%;
+}
+
+input{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    border: 0;
+    font-size: 15px;
+}
+
+#answer{
+    width: 270px;
+    font-size: 20px;
     text-align: center;
-    border: 2px solid black;
+    float: left;
 }
